@@ -1,4 +1,4 @@
-= hubway-muncher
+= hubway_muncher
 
 Description goes here.
 

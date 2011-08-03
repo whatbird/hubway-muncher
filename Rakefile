@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "hubway-muncher"
-  gem.homepage = "http://github.com/whatbird/hubway-muncher"
+  gem.name = "hubway_muncher"
+  gem.homepage = "http://github.com/whatbird/hubway_muncher"
   gem.license = "MIT"
   gem.summary = %Q{TODO: one-line summary of your gem}
   gem.description = %Q{TODO: longer description of your gem}
@@ -43,7 +43,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "hubway-muncher #{version}"
+  rdoc.title = "hubway_muncher #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
