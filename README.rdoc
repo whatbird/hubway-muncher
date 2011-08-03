@@ -1,6 +1,6 @@
-= hubway-muncher
+= hubway_muncher
 
-Description goes here.
+slimmest tool for grabbing Boston bike share (Hubway) data
 
 == Contributing to hubway-muncher
  
